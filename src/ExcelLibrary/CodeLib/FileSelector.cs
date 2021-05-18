@@ -1,5 +1,6 @@
-using System;
+#if NETFRAMEWORK
 using System.Windows.Forms;
+#endif
 
 namespace QiHe.CodeLib
 {
@@ -53,6 +54,9 @@ namespace QiHe.CodeLib
         /// </summary>
         All
     }
+
+#if NETFRAMEWORK
+
     /// <summary>
     /// FileSelector
     /// </summary>
@@ -152,6 +156,7 @@ namespace QiHe.CodeLib
         /// 
         /// </summary>
         public static OpenFileDialog OFD = new OpenFileDialog();
+
         /// <summary>
         /// 
         /// </summary>
@@ -308,4 +313,6 @@ namespace QiHe.CodeLib
             return BrowseFileForSave();
         }
     }
+    
+#endif
 }

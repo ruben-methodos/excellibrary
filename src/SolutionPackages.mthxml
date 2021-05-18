@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><packages><package name="ExcelLibrary" main="ExcelLibrary"><project name="ExcelLibrary" /></package><known-projects><project>ExcelLibrary</project><project>ExcelLibrary.WinForm</project><project>ExcelLibrary.Test</project><project>ExcelLibrary.Tool</project></known-projects></packages>
